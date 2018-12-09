@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8a92af67-e894-4df9-9b12-ec4714f8674f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/usuario.js" afterPath="$PROJECT_DIR$/models/usuario.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/usuario.js" afterPath="$PROJECT_DIR$/routes/usuario.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/routes/login.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
@@ -30,31 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagenes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/imagenes.js">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/upload.js">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="busqueda.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/busqueda.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="-918">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -81,7 +72,6 @@
         <option value="$PROJECT_DIR$/models/usuario.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/routes/login.js" />
         <option value="$PROJECT_DIR$/middlewares/autenticacion.js" />
         <option value="$PROJECT_DIR$/models/hospital.js" />
         <option value="$PROJECT_DIR$/routes/hospital.js" />
@@ -90,6 +80,8 @@
         <option value="$PROJECT_DIR$/routes/upload.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/imagenes.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
       </list>
     </option>
   </component>
@@ -105,8 +97,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="614" />
-    <option name="width" value="752" />
+    <option name="x" value="506" />
+    <option name="width" value="860" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -211,18 +203,18 @@
       <workItem from="1543982808588" duration="2829000" />
       <workItem from="1544147437223" duration="2867000" />
       <workItem from="1544242217558" duration="2657000" />
-      <workItem from="1544312977559" duration="10545000" />
+      <workItem from="1544312977559" duration="12971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22052000" />
+    <option name="totallyTimeSpent" value="24478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="614" y="0" width="752" height="728" extended-state="0" />
+    <frame x="506" y="0" width="860" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22603719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2254902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -277,8 +269,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1544149637001" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
-            <marker date="1544149637001" expanded="true" signature="272:635" ph="{...}" />
+            <marker date="1523408394000" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
+            <marker date="1523408394000" expanded="true" signature="272:635" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -315,8 +307,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1544149637001" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
-            <marker date="1544149637001" expanded="true" signature="272:635" ph="{...}" />
+            <marker date="1523408394000" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
+            <marker date="1523408394000" expanded="true" signature="272:635" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -353,8 +345,8 @@
         <state relative-caret-position="153">
           <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
-            <marker date="1544149637001" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
-            <marker date="1544149637001" expanded="true" signature="272:635" ph="{...}" />
+            <marker date="1523408394000" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
+            <marker date="1523408394000" expanded="true" signature="272:635" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -395,8 +387,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1544149637001" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
-            <marker date="1544149637001" expanded="true" signature="272:635" ph="{...}" />
+            <marker date="1523408394000" expanded="true" signature="148:238" ph="{&quot;message&quot;: '{VALUE} no es un rol permitido'...}" />
+            <marker date="1523408394000" expanded="true" signature="272:635" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -406,8 +398,8 @@
         <state relative-caret-position="364">
           <caret line="651" column="0" lean-forward="false" selection-start-line="651" selection-start-column="0" selection-end-line="651" selection-end-column="0" />
           <folding>
-            <marker date="1544327987641" expanded="true" signature="0:29364" ph="{&quot;name&quot;: &quot;backend-server&quot;...}" />
-            <marker date="1544327987641" expanded="true" signature="114:29362" ph="{...}" />
+            <marker date="1544330638897" expanded="true" signature="0:35991" ph="{&quot;name&quot;: &quot;backend-server&quot;...}" />
+            <marker date="1544330638897" expanded="true" signature="114:35989" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -428,22 +420,6 @@
             <marker date="1543986334612" expanded="true" signature="162:272" ph="{...}" />
             <marker date="1543986334612" expanded="true" signature="190:267" ph="{&quot;mensaje&quot;: 'Peticion realizada correctamnete'...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="45" lean-forward="true" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,14 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/busqueda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express-fileupload/lib/fileFactory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -519,6 +487,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/busqueda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/upload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -535,10 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="-918">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding />
         </state>
       </provider>
