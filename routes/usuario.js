@@ -27,32 +27,39 @@ app.get('/', function (req, res, next) {
     /*
     * Retornara todos los usuarios, y las columnas especificadas
     * */
-    Usuario.find({}, 'nombre email img role').exec(
-        function (err, usuarios) {
-            if (err) {
-                return res.status(500).json({
-                    ok: false,
-                    mensaje: 'Error cargando usuarios',
-                    errors: err
-                });
-            }
-            res.status(200).json({
-                ok: true,
-                usuarios: usuarios
+
+    var desde = req.query.desde || 0;
+    desde = Number(desde);
+
+    Usuario.find({}, 'nombre email img role')
+        .skip(desde)
+        .limit(5)
+        .exec(
+            function (err, usuarios) {
+                if (err) {
+                    return res.status(500).json({
+                        ok: false,
+                        mensaje: 'Error cargando usuarios',
+                        errors: err
+                    });
+                }
+                Usuario.count({}, (err, conteo) => {
+
+                    res.status(200).json({
+                        ok: true,
+                        usuarios: usuarios,
+                        total: conteo
+                    });
+
+                })
             });
-        });
 });
-
-
-
-
-
 
 
 // ==========================================
 // Actualizar usuario
 // ==========================================
-app.put('/:id',mdAutenticacion.verificaToken, function (req, res) {
+app.put('/:id', mdAutenticacion.verificaToken, function (req, res) {
 
     var id = req.params.id;
     var body = req.body;
@@ -111,7 +118,7 @@ app.put('/:id',mdAutenticacion.verificaToken, function (req, res) {
 /*CREAR UN NUEVO USUARIO*/
 /*============================*/
 
-app.post('/', mdAutenticacion.verificaToken , function (req, res) {
+app.post('/', mdAutenticacion.verificaToken, function (req, res) {
     var body = req.body;
 
     var usuario = new Usuario({
@@ -148,7 +155,7 @@ app.post('/', mdAutenticacion.verificaToken , function (req, res) {
 // ============================================
 //   Borrar un usuario por el id
 // ============================================
-app.delete('/:id', mdAutenticacion.verificaToken,  function (req, res) {
+app.delete('/:id', mdAutenticacion.verificaToken, function (req, res) {
 
     var id = req.params.id;
 

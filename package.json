@@ -13,9 +13,13 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
     "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.3.14",
     "mongoose-unique-validator": "^2.0.2",
-    "oauth2client": "^1.0.0"
+    "oauth2client": "^1.0.0",
+    "serve-index": "^1.9.1"
   }
 }
